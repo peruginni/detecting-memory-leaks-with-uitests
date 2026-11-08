@@ -2,8 +2,6 @@
 
 A small SwiftUI app with an intentional retain cycle, plus two scripts for detecting it on a physical iPhone.
 
-![Example leak report highlighting three surviving DetailScreenModel instances](docs/example.png)
-
 For demo videos and more details, read the [blog post](https://ondrej.macoszek.cz/tech-notes/2026-06-20-detecting-memory-leaks-with-uitests/).
 
 `DetailScreenModel` owns a closure that strongly captures the model. Each test opens and closes the detail screen three times per flow. Surviving models and their payloads give the tools something to detect.
