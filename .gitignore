@@ -1,0 +1,45 @@
+# macOS and editor files
+.DS_Store
+.AppleDouble
+*~
+*.swp
+
+# Xcode build output and user settings
+.derived-data/
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xcactivitylog
+*.dSYM/
+*.ipa
+
+# Recordings, memory snapshots, and diagnostic logs
+artifacts/
+*.xcresult
+*.trace
+*.memgraph
+*.memgraphset/
+*.memgraph.*
+*.log
+*.mov
+*.mp4
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.local.xcconfig
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.pem
+*.key
+*.cer
