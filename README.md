@@ -2,9 +2,27 @@
 
 A small SwiftUI app with an intentional retain cycle, plus two scripts for detecting it on a physical iPhone.
 
+![Example leak report highlighting three surviving DetailScreenModel instances](docs/example.png)
+
 For demo videos and more details, read the [blog post](https://ondrej.macoszek.cz/tech-notes/2026-06-20-detecting-memory-leaks-with-uitests/).
 
 `DetailScreenModel` owns a closure that strongly captures the model. Each test opens and closes the detail screen three times per flow. Surviving models and their payloads give the tools something to detect.
+
+## Video examples
+
+Both demos are silent. Click a preview to open the video.
+
+### XCTest memory diagnostics
+
+[![Watch the XCTest memory diagnostics demo](docs/demos/xctest-memory-diagnostics.jpg)](docs/demos/xctest-memory-diagnostics.mp4)
+
+[Watch video](docs/demos/xctest-memory-diagnostics.mp4) · 1 min 4 sec · 2.0 MB
+
+### xctrace with the Leaks instrument
+
+[![Watch the xctrace Leaks demo](docs/demos/xctrace-leaks.jpg)](docs/demos/xctrace-leaks.mp4)
+
+[Watch video](docs/demos/xctrace-leaks.mp4) · 1 min 13 sec · 1.7 MB
 
 ## Requirements
 

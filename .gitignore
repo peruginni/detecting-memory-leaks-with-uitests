@@ -24,6 +24,9 @@ artifacts/
 *.log
 *.mov
 *.mp4
+# Reviewed, silent demos linked from the README.
+!/docs/demos/xctest-memory-diagnostics.mp4
+!/docs/demos/xctrace-leaks.mp4
 
 # Python caches and local environments
 __pycache__/
