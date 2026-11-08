@@ -8,23 +8,10 @@ For demo videos and more details, read the [blog post](https://ondrej.macoszek.c
 
 ## Video examples
 
-Both demos are silent.
-
-### XCTest memory diagnostics
-
-<video src="https://github.com/peruginni/detecting-memory-leaks-with-uitests/raw/refs/heads/main/docs/demos/xctest-memory-diagnostics.mp4" controls muted playsinline preload="metadata" width="960" poster="docs/demos/xctest-memory-diagnostics.jpg">
-  <a href="docs/demos/xctest-memory-diagnostics.mp4">Watch the XCTest memory diagnostics demo</a>
-</video>
-
-[Watch video](docs/demos/xctest-memory-diagnostics.mp4) · 1 min 4 sec · 2.0 MB
-
-### xctrace with the Leaks instrument
-
-<video src="https://github.com/peruginni/detecting-memory-leaks-with-uitests/raw/refs/heads/main/docs/demos/xctrace-leaks.mp4" controls muted playsinline preload="metadata" width="960" poster="docs/demos/xctrace-leaks.jpg">
-  <a href="docs/demos/xctrace-leaks.mp4">Watch the xctrace Leaks demo</a>
-</video>
-
-[Watch video](docs/demos/xctrace-leaks.mp4) · 1 min 13 sec · 1.7 MB
+| XCTest memory diagnostics | xctrace with the Leaks instrument |
+| --- | --- |
+| [![Watch the XCTest memory diagnostics demo](docs/demos/xctest-memory-diagnostics.jpg)](https://github.com/peruginni/detecting-memory-leaks-with-uitests/blob/main/docs/demos/xctest-memory-diagnostics.mp4) | [![Watch the xctrace Leaks demo](docs/demos/xctrace-leaks.jpg)](https://github.com/peruginni/detecting-memory-leaks-with-uitests/blob/main/docs/demos/xctrace-leaks.mp4) |
+| [Watch video](https://github.com/peruginni/detecting-memory-leaks-with-uitests/blob/main/docs/demos/xctest-memory-diagnostics.mp4) · 1 min 4 sec · 2.0 MB | [Watch video](https://github.com/peruginni/detecting-memory-leaks-with-uitests/blob/main/docs/demos/xctrace-leaks.mp4) · 1 min 13 sec · 1.7 MB |
 
 ## Requirements
 
